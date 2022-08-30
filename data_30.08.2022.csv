@@ -1,0 +1,501 @@
+﻿Account,Zone,Province,InternetType,StreamingTV,FaultPowerOutagePerMonth,FaultCableCutPerMonth
+acc44983,6,จ.ราชบุรี,Fiber optic,Yes,3,5
+acc93645,3,จ.ขอนแก่น,Fiber optic,No,5,8
+acc25844,5,จ.เชียงใหม่,Fiber optic,Yes,0,7
+acc24385,2,จ.นครราชสีมา,Fiber optic,Yes,5,0
+acc19030,8,จ.พัทลุง,Fiber optic,Yes,0,2
+acc45030,2,จ.ชัยภูมิ,Fiber optic,Yes,2,5
+acc42330,3,จ.ขอนแก่น,Fiber optic,Yes,0,4
+acc53500,2,จ.นครราชสีมา,Fiber optic,Yes,7,10
+acc81323,1,จ.ตราด,Fiber optic,Yes,0,8
+acc57052,9,จ.พระนครศรีอยุธยา,Fiber optic,Yes,0,8
+acc17469,0,จ.กรุงเทพมหานคร,Fiber optic,Yes,7,5
+acc51112,4,จ.อุทัยธานี,DSL,No,9,9
+acc62209,4,จ.อุตรดิตถ์,Fiber optic,Yes,0,5
+acc64719,3,จ.ขอนแก่น,Fiber optic,No,0,4
+acc91617,5,จ.เชียงใหม่,Fiber optic,Yes,1,9
+acc65513,0,จ.ปทุมธานี,Fiber optic,No,6,1
+acc77767,5,จ.เชียงใหม่,Fiber optic,Yes,2,0
+acc98604,1,จ.ฉะเชิงเทรา,Fiber optic,No,0,0
+acc16038,3,จ.ขอนแก่น,Fiber optic,Yes,3,1
+acc41181,3,จ.ขอนแก่น,Fiber optic,Yes,5,9
+acc82259,4,จ.อุทัยธานี,Fiber optic,Yes,9,2
+acc76611,9,จ.สุพรรณบุรี,Fiber optic,Yes,3,1
+acc96812,5,จ.ลำปาง,Fiber optic,No,2,4
+acc50219,3,จ.มหาสารคาม,Fiber optic,Yes,2,4
+acc75170,4,จ.กำแพงเพชร,Fiber optic,No,8,8
+acc48724,2,จ.ชัยภูมิ,Fiber optic,No,6,7
+acc28832,2,จ.นครราชสีมา,Fiber optic,Yes,0,3
+acc63280,4,จ.นครสวรรค์,DSL,No,4,4
+acc73838,5,จ.เชียงใหม่,Fiber optic,Yes,7,8
+acc31337,4,จ.อุตรดิตถ์,DSL,No,2,1
+acc92553,6,จ.กาญจนบุรี,Fiber optic,No,1,6
+acc39067,2,จ.ยโสธร,DSL,No,4,9
+acc18302,5,จ.เชียงราย,Fiber optic,Yes,0,1
+acc87104,2,จ.ชัยภูมิ,Fiber optic,Yes,1,1
+acc56406,6,จ.ประจวบคีรีขันธ์,Fiber optic,Yes,6,4
+acc34119,4,จ.เพชรบูรณ์,DSL,No,9,9
+acc25169,5,จ.เชียงใหม่,Fiber optic,No,8,9
+acc79844,6,จ.เพชรบุรี,DSL,No,0,4
+acc37629,5,จ.ลำปาง,Fiber optic,Yes,9,3
+acc99088,2,จ.ศรีสะเกษ,Fiber optic,Yes,2,9
+acc30869,0,จ.กรุงเทพมหานคร,DSL,Yes,0,6
+acc57477,3,จ.ขอนแก่น,Fiber optic,Yes,8,10
+acc92370,4,จ.อุทัยธานี,Fiber optic,Yes,3,8
+acc69589,7,จ.ชุมพร,Fiber optic,Yes,0,8
+acc10862,7,จ.นครศรีธรรมราช,Fiber optic,Yes,6,8
+acc56476,3,จ.ขอนแก่น,Fiber optic,Yes,0,8
+acc99039,9,จ.สุพรรณบุรี,Fiber optic,Yes,2,3
+acc14929,7,จ.ชุมพร,Fiber optic,No,1,5
+acc18013,0,จ.ปทุมธานี,Fiber optic,Yes,3,1
+acc38307,4,จ.สุโขทัย,Fiber optic,Yes,6,3
+acc39091,3,จ.ขอนแก่น,Fiber optic,Yes,0,3
+acc37697,0,จ.กรุงเทพมหานคร,Fiber optic,Yes,0,4
+acc76891,8,จ.พัทลุง,Fiber optic,Yes,2,8
+acc19796,7,จ.ชุมพร,DSL,No,2,10
+acc23125,3,จ.มหาสารคาม,Fiber optic,No,2,6
+acc94979,6,จ.กาญจนบุรี,Fiber optic,Yes,6,6
+acc31294,0,จ.กรุงเทพมหานคร,Fiber optic,No,3,9
+acc87679,9,จ.สุพรรณบุรี,Fiber optic,Yes,0,9
+acc27685,9,จ.สิงห์บุรี,Fiber optic,Yes,3,6
+acc85468,5,จ.เชียงใหม่,Fiber optic,No,7,9
+acc47628,6,จ.เพชรบุรี,Fiber optic,Yes,4,1
+acc73574,7,จ.ชุมพร,Fiber optic,No,2,4
+acc14606,4,จ.เพชรบูรณ์,Fiber optic,No,0,0
+acc58377,5,จ.แพร่,DSL,No,3,1
+acc92209,0,จ.สมุทรปราการ,Fiber optic,Yes,2,4
+acc93976,1,จ.ฉะเชิงเทรา,Fiber optic,Yes,8,9
+acc86421,0,จ.นนทบุรี,Fiber optic,Yes,1,5
+acc55017,4,จ.ตาก,Fiber optic,Yes,9,3
+acc91430,5,จ.แพร่,Fiber optic,Yes,8,2
+acc17009,2,จ.นครราชสีมา,Fiber optic,Yes,0,5
+acc26839,5,จ.เชียงราย,DSL,No,4,7
+acc87474,5,จ.เชียงใหม่,DSL,Yes,0,0
+acc77290,0,จ.กรุงเทพมหานคร,DSL,Yes,6,7
+acc24527,0,จ.กรุงเทพมหานคร,Fiber optic,No,0,0
+acc54543,2,จ.ยโสธร,Fiber optic,Yes,4,0
+acc38336,0,จ.นนทบุรี,Fiber optic,Yes,4,3
+acc80860,5,จ.เชียงใหม่,Fiber optic,Yes,1,8
+acc35913,9,จ.สุพรรณบุรี,DSL,No,5,6
+acc70239,7,จ.พังงา,DSL,Yes,0,8
+acc80728,6,จ.ประจวบคีรีขันธ์,Fiber optic,Yes,7,4
+acc83566,5,จ.เชียงใหม่,Fiber optic,Yes,2,9
+acc36623,8,จ.พัทลุง,Fiber optic,Yes,6,8
+acc90910,7,จ.ระนอง,DSL,No,8,9
+acc21078,0,จ.กรุงเทพมหานคร,Fiber optic,No,8,5
+acc68750,5,จ.เชียงราย,DSL,No,5,6
+acc28192,7,จ.ชุมพร,Fiber optic,Yes,7,10
+acc33378,7,จ.กระบี่,Fiber optic,Yes,8,0
+acc13094,2,จ.นครราชสีมา,Fiber optic,Yes,2,5
+acc33348,4,จ.อุตรดิตถ์,DSL,Yes,3,6
+acc93249,5,จ.แพร่,DSL,Yes,4,2
+acc81780,4,จ.พิษณุโลก,Fiber optic,Yes,5,3
+acc72921,3,จ.ขอนแก่น,Fiber optic,No,1,7
+acc27620,3,จ.ขอนแก่น,Fiber optic,Yes,6,7
+acc79730,5,จ.ลำปาง,Fiber optic,Yes,6,2
+acc91211,0,จ.สมุทรปราการ,Fiber optic,No,1,8
+acc20876,0,จ.กรุงเทพมหานคร,Fiber optic,No,4,2
+acc16646,3,จ.มุกดาหาร,DSL,Yes,8,9
+acc37275,2,จ.บุรีรัมย์,Fiber optic,No,3,9
+acc44239,2,จ.นครราชสีมา,Fiber optic,Yes,0,10
+acc36442,5,จ.เชียงใหม่,Fiber optic,Yes,1,6
+acc35930,5,จ.เชียงใหม่,Fiber optic,Yes,3,9
+acc77147,7,จ.กระบี่,Fiber optic,Yes,4,8
+acc85580,5,จ.เชียงใหม่,Fiber optic,No,6,9
+acc34404,9,จ.สุพรรณบุรี,DSL,No,7,9
+acc89676,0,จ.กรุงเทพมหานคร,DSL,Yes,4,1
+acc76444,8,จ.ยะลา,Fiber optic,No,0,1
+acc25448,0,จ.กรุงเทพมหานคร,Fiber optic,No,1,6
+acc43380,5,จ.เชียงใหม่,Fiber optic,No,1,1
+acc91012,3,จ.อุดรธานี,Fiber optic,Yes,1,7
+acc96780,4,จ.นครสวรรค์,Fiber optic,No,6,6
+acc99049,1,จ.ปราจีนบุรี,Fiber optic,Yes,0,7
+acc85831,0,จ.กรุงเทพมหานคร,Fiber optic,Yes,3,9
+acc90481,3,จ.ร้อยเอ็ด,Fiber optic,No,3,3
+acc93884,3,จ.อุดรธานี,Fiber optic,No,4,1
+acc27973,1,จ.ฉะเชิงเทรา,Fiber optic,Yes,2,5
+acc15347,5,จ.เชียงใหม่,Fiber optic,Yes,5,3
+acc66359,0,จ.สมุทรปราการ,Fiber optic,No,6,7
+acc54652,4,จ.พิษณุโลก,Fiber optic,Yes,5,5
+acc60404,0,จ.กรุงเทพมหานคร,Fiber optic,No,0,4
+acc37361,1,จ.ฉะเชิงเทรา,Fiber optic,Yes,4,10
+acc38728,2,จ.ศรีสะเกษ,Fiber optic,No,9,7
+acc93008,2,จ.นครราชสีมา,Fiber optic,Yes,3,2
+acc28110,7,จ.ชุมพร,DSL,Yes,1,8
+acc24277,8,จ.พัทลุง,Fiber optic,Yes,3,4
+acc93448,8,จ.ยะลา,Fiber optic,No,5,8
+acc83272,4,จ.พิษณุโลก,DSL,Yes,5,8
+acc68157,3,จ.อุดรธานี,DSL,Yes,6,8
+acc60175,4,จ.ตาก,Fiber optic,Yes,8,5
+acc95130,4,จ.พิษณุโลก,Fiber optic,Yes,0,0
+acc74716,6,จ.ราชบุรี,Fiber optic,Yes,0,8
+acc45940,7,จ.กระบี่,Fiber optic,Yes,4,0
+acc99361,5,จ.เชียงใหม่,Fiber optic,Yes,0,6
+acc76526,7,จ.พังงา,DSL,Yes,5,4
+acc51051,7,จ.นครศรีธรรมราช,Fiber optic,Yes,2,3
+acc21423,2,จ.ศรีสะเกษ,Fiber optic,No,9,10
+acc48036,4,จ.อุทัยธานี,Fiber optic,Yes,0,0
+acc94990,8,จ.ยะลา,DSL,Yes,4,10
+acc86149,4,จ.เพชรบูรณ์,Fiber optic,Yes,2,1
+acc40400,7,จ.ชุมพร,Fiber optic,Yes,3,4
+acc72485,6,จ.ราชบุรี,DSL,Yes,1,4
+acc75634,2,จ.นครราชสีมา,Fiber optic,No,0,4
+acc72607,0,จ.กรุงเทพมหานคร,DSL,Yes,4,4
+acc26772,5,จ.เชียงใหม่,Fiber optic,Yes,8,0
+acc86446,2,จ.ศรีสะเกษ,Fiber optic,No,3,6
+acc25198,3,จ.อุดรธานี,Fiber optic,No,2,3
+acc38487,4,จ.ตาก,Fiber optic,No,5,1
+acc55884,7,จ.นครศรีธรรมราช,Fiber optic,Yes,0,8
+acc31997,4,จ.นครสวรรค์,Fiber optic,Yes,6,8
+acc99235,0,จ.สมุทรปราการ,Fiber optic,Yes,1,9
+acc73007,3,จ.มหาสารคาม,Fiber optic,Yes,3,3
+acc79357,7,จ.นครศรีธรรมราช,Fiber optic,Yes,0,4
+acc26475,2,จ.นครราชสีมา,Fiber optic,No,8,8
+acc60161,7,จ.นครศรีธรรมราช,Fiber optic,Yes,4,10
+acc31091,5,จ.พะเยา,DSL,Yes,2,6
+acc47618,6,จ.ราชบุรี,Fiber optic,No,6,0
+acc83554,0,จ.ปทุมธานี,Fiber optic,Yes,0,1
+acc75841,4,จ.สุโขทัย,Fiber optic,Yes,2,3
+acc50052,5,จ.ลำปาง,Fiber optic,Yes,0,7
+acc14581,7,จ.พังงา,Fiber optic,Yes,4,5
+acc72541,5,จ.เชียงใหม่,DSL,Yes,6,2
+acc54903,0,จ.กรุงเทพมหานคร,Fiber optic,No,7,5
+acc98524,4,จ.ตาก,Fiber optic,Yes,0,10
+acc14483,4,จ.พิษณุโลก,Fiber optic,No,2,2
+acc89739,3,จ.ขอนแก่น,Fiber optic,Yes,5,0
+acc39225,3,จ.ขอนแก่น,Fiber optic,No,3,7
+acc47864,2,จ.นครราชสีมา,Fiber optic,No,2,4
+acc85536,0,จ.ปทุมธานี,Fiber optic,No,8,1
+acc39377,4,จ.อุทัยธานี,DSL,Yes,3,6
+acc48734,3,จ.ขอนแก่น,Fiber optic,No,7,0
+acc75720,5,จ.เชียงใหม่,Fiber optic,No,2,9
+acc17191,6,จ.ประจวบคีรีขันธ์,Fiber optic,No,0,6
+acc15421,5,จ.เชียงใหม่,Fiber optic,No,8,0
+acc81005,3,จ.อุดรธานี,Fiber optic,Yes,5,2
+acc31211,4,จ.ตาก,DSL,No,3,2
+acc44874,0,จ.กรุงเทพมหานคร,DSL,Yes,7,1
+acc32965,1,จ.ฉะเชิงเทรา,Fiber optic,No,3,8
+acc20050,3,จ.มหาสารคาม,Fiber optic,Yes,2,4
+acc24395,0,จ.กรุงเทพมหานคร,Fiber optic,Yes,6,1
+acc71117,9,จ.สิงห์บุรี,Fiber optic,Yes,9,8
+acc74880,2,จ.ศรีสะเกษ,DSL,No,2,10
+acc35229,6,จ.ประจวบคีรีขันธ์,Fiber optic,Yes,9,2
+acc45184,0,จ.สมุทรปราการ,Fiber optic,Yes,3,7
+acc50051,5,จ.เชียงใหม่,Fiber optic,Yes,3,1
+acc60550,0,จ.นนทบุรี,Fiber optic,Yes,7,10
+acc61520,0,จ.กรุงเทพมหานคร,Fiber optic,Yes,0,3
+acc72367,4,จ.สุโขทัย,Fiber optic,Yes,0,0
+acc34377,0,จ.นนทบุรี,Fiber optic,No,7,1
+acc80979,2,จ.นครราชสีมา,Fiber optic,Yes,0,0
+acc34573,3,จ.เลย,DSL,Yes,5,0
+acc48439,3,จ.มหาสารคาม,Fiber optic,No,0,3
+acc12524,4,จ.นครสวรรค์,Fiber optic,Yes,4,10
+acc50079,2,จ.นครราชสีมา,Fiber optic,Yes,3,8
+acc74174,4,จ.อุตรดิตถ์,Fiber optic,Yes,0,7
+acc33630,2,จ.นครราชสีมา,Fiber optic,Yes,4,1
+acc91596,7,จ.ชุมพร,Fiber optic,Yes,2,3
+acc88442,2,จ.นครราชสีมา,Fiber optic,No,6,7
+acc63132,3,จ.มหาสารคาม,Fiber optic,Yes,0,4
+acc68869,4,จ.ตาก,Fiber optic,Yes,0,5
+acc81890,6,จ.กาญจนบุรี,Fiber optic,Yes,1,0
+acc21276,2,จ.นครราชสีมา,Fiber optic,No,6,2
+acc68385,0,จ.กรุงเทพมหานคร,Fiber optic,Yes,6,2
+acc80835,3,จ.สกลนคร,Fiber optic,Yes,8,8
+acc70798,1,จ.ฉะเชิงเทรา,Fiber optic,No,7,8
+acc82989,4,จ.เพชรบูรณ์,Fiber optic,No,8,0
+acc24316,6,จ.ราชบุรี,DSL,Yes,0,0
+acc83044,3,จ.มหาสารคาม,Fiber optic,No,5,8
+acc50240,0,จ.นนทบุรี,DSL,Yes,5,5
+acc19394,4,จ.นครสวรรค์,Fiber optic,Yes,3,6
+acc40835,4,จ.สุโขทัย,DSL,Yes,7,4
+acc73705,4,จ.อุตรดิตถ์,Fiber optic,Yes,3,2
+acc91402,4,จ.พิษณุโลก,Fiber optic,Yes,0,6
+acc37115,4,จ.อุตรดิตถ์,Fiber optic,No,2,2
+acc91407,2,จ.นครราชสีมา,Fiber optic,No,0,1
+acc30401,0,จ.กรุงเทพมหานคร,Fiber optic,Yes,0,4
+acc12786,0,จ.กรุงเทพมหานคร,Fiber optic,Yes,1,7
+acc82921,9,จ.พระนครศรีอยุธยา,Fiber optic,No,7,6
+acc60072,0,จ.ปทุมธานี,Fiber optic,Yes,4,10
+acc23315,7,จ.นครศรีธรรมราช,Fiber optic,No,1,10
+acc30307,9,จ.สุพรรณบุรี,Fiber optic,Yes,5,6
+acc55017,3,จ.ขอนแก่น,Fiber optic,No,0,6
+acc13690,5,จ.เชียงใหม่,Fiber optic,Yes,3,7
+acc87615,9,จ.สุพรรณบุรี,Fiber optic,Yes,0,10
+acc77268,4,จ.เพชรบูรณ์,Fiber optic,No,3,3
+acc82744,6,จ.เพชรบุรี,Fiber optic,No,6,0
+acc76948,7,จ.กระบี่,Fiber optic,Yes,2,8
+acc52962,0,จ.กรุงเทพมหานคร,Fiber optic,Yes,0,9
+acc39469,8,จ.ยะลา,Fiber optic,Yes,0,5
+acc80055,6,จ.กาญจนบุรี,Fiber optic,Yes,6,10
+acc26023,6,จ.เพชรบุรี,Fiber optic,Yes,0,0
+acc31408,4,จ.อุทัยธานี,Fiber optic,Yes,7,10
+acc59758,0,จ.สมุทรปราการ,DSL,Yes,1,5
+acc99718,2,จ.ศรีสะเกษ,Fiber optic,Yes,1,6
+acc65143,6,จ.ราชบุรี,Fiber optic,Yes,4,7
+acc89045,9,จ.สุพรรณบุรี,DSL,Yes,0,10
+acc36193,6,จ.กาญจนบุรี,Fiber optic,Yes,8,4
+acc45244,5,จ.เชียงใหม่,DSL,Yes,0,0
+acc53775,2,จ.นครราชสีมา,Fiber optic,Yes,0,0
+acc19532,6,จ.กาญจนบุรี,Fiber optic,Yes,0,3
+acc60739,3,จ.ขอนแก่น,Fiber optic,Yes,3,8
+acc85741,5,จ.ลำปาง,DSL,Yes,0,0
+acc23083,1,จ.ระยอง,Fiber optic,Yes,6,8
+acc16392,5,จ.เชียงใหม่,Fiber optic,Yes,0,6
+acc97009,5,จ.ลำพูน,Fiber optic,Yes,5,0
+acc57260,4,จ.เพชรบูรณ์,DSL,Yes,2,4
+acc42791,5,จ.เชียงใหม่,Fiber optic,Yes,0,5
+acc83357,5,จ.เชียงใหม่,Fiber optic,Yes,7,9
+acc84250,4,จ.อุตรดิตถ์,Fiber optic,No,1,10
+acc27833,7,จ.ชุมพร,Fiber optic,Yes,9,5
+acc87422,3,จ.อุดรธานี,Fiber optic,Yes,0,8
+acc86678,1,จ.ตราด,DSL,Yes,2,2
+acc68564,3,จ.นครพนม,Fiber optic,Yes,8,10
+acc63502,4,จ.นครสวรรค์,Fiber optic,No,3,3
+acc99831,6,จ.ประจวบคีรีขันธ์,Fiber optic,No,4,8
+acc58404,8,จ.ยะลา,Fiber optic,Yes,1,7
+acc85540,6,จ.เพชรบุรี,Fiber optic,Yes,7,4
+acc36584,4,จ.เพชรบูรณ์,Fiber optic,Yes,0,7
+acc20820,9,จ.สุพรรณบุรี,Fiber optic,Yes,0,9
+acc45928,7,จ.ภูเก็ต,Fiber optic,Yes,1,5
+acc49053,1,จ.ฉะเชิงเทรา,Fiber optic,No,4,7
+acc29704,7,จ.นครศรีธรรมราช,Fiber optic,Yes,8,5
+acc99881,5,จ.แพร่,DSL,Yes,0,1
+acc96689,5,จ.เชียงราย,Fiber optic,No,6,2
+acc50971,9,จ.สุพรรณบุรี,DSL,Yes,0,3
+acc40994,7,จ.กระบี่,Fiber optic,Yes,5,4
+acc13905,1,จ.ปราจีนบุรี,DSL,No,3,5
+acc17079,0,จ.กรุงเทพมหานคร,Fiber optic,Yes,0,10
+acc81347,2,จ.ศรีสะเกษ,DSL,Yes,3,8
+acc41501,6,จ.ราชบุรี,Fiber optic,Yes,6,7
+acc43806,0,จ.นนทบุรี,Fiber optic,No,1,1
+acc42667,7,จ.ตรัง,Fiber optic,No,0,5
+acc90925,5,จ.เชียงใหม่,Fiber optic,No,5,0
+acc14975,3,จ.อุดรธานี,Fiber optic,Yes,0,3
+acc92050,0,จ.กรุงเทพมหานคร,Fiber optic,Yes,3,7
+acc66155,2,จ.อุบลราชธานี,DSL,Yes,0,0
+acc94255,5,จ.เชียงใหม่,Fiber optic,Yes,1,8
+acc84744,5,จ.เชียงใหม่,Fiber optic,No,0,7
+acc95308,6,จ.เพชรบุรี,Fiber optic,No,1,7
+acc50209,2,จ.ชัยภูมิ,Fiber optic,Yes,4,0
+acc29245,0,จ.ปทุมธานี,Fiber optic,Yes,2,0
+acc20037,3,จ.มหาสารคาม,Fiber optic,No,2,0
+acc52654,4,จ.อุตรดิตถ์,Fiber optic,No,2,4
+acc38293,7,จ.ระนอง,Fiber optic,Yes,3,1
+acc59300,2,จ.นครราชสีมา,Fiber optic,Yes,2,2
+acc65206,0,จ.กรุงเทพมหานคร,DSL,Yes,5,8
+acc54263,0,จ.ปทุมธานี,Fiber optic,No,8,4
+acc61648,3,จ.อุดรธานี,Fiber optic,Yes,1,3
+acc22601,9,จ.สุพรรณบุรี,Fiber optic,No,3,6
+acc73723,2,จ.นครราชสีมา,Fiber optic,No,7,3
+acc15711,7,จ.กระบี่,Fiber optic,Yes,1,9
+acc69713,7,จ.นครศรีธรรมราช,Fiber optic,Yes,0,1
+acc13719,2,จ.นครราชสีมา,Fiber optic,No,5,3
+acc86814,2,จ.นครราชสีมา,Fiber optic,Yes,6,4
+acc57683,7,จ.กระบี่,Fiber optic,Yes,7,1
+acc58946,4,จ.เพชรบูรณ์,DSL,Yes,5,5
+acc66849,4,จ.เพชรบูรณ์,Fiber optic,Yes,7,9
+acc36054,5,จ.แพร่,Fiber optic,Yes,0,1
+acc48301,3,จ.ขอนแก่น,Fiber optic,Yes,1,1
+acc12569,5,จ.เชียงใหม่,Fiber optic,Yes,3,0
+acc45425,0,จ.กรุงเทพมหานคร,Fiber optic,Yes,6,4
+acc29015,3,จ.นครพนม,Fiber optic,Yes,7,1
+acc32704,9,จ.สุพรรณบุรี,Fiber optic,Yes,8,0
+acc68367,6,จ.กาญจนบุรี,Fiber optic,No,9,5
+acc57056,0,จ.กรุงเทพมหานคร,DSL,No,6,2
+acc49695,7,จ.ระนอง,Fiber optic,Yes,0,2
+acc72743,0,จ.ปทุมธานี,Fiber optic,No,0,3
+acc75192,1,จ.ระยอง,Fiber optic,No,3,2
+acc16663,0,จ.ปทุมธานี,Fiber optic,No,4,1
+acc33723,1,จ.ฉะเชิงเทรา,Fiber optic,No,0,7
+acc99217,0,จ.นนทบุรี,DSL,Yes,3,7
+acc56449,8,จ.พัทลุง,Fiber optic,Yes,3,1
+acc88017,8,จ.พัทลุง,Fiber optic,No,6,6
+acc53197,1,จ.ฉะเชิงเทรา,Fiber optic,Yes,0,2
+acc94686,3,จ.อุดรธานี,Fiber optic,No,6,8
+acc57549,9,จ.สุพรรณบุรี,DSL,Yes,0,9
+acc56221,0,จ.กรุงเทพมหานคร,Fiber optic,Yes,5,10
+acc74931,2,จ.ชัยภูมิ,Fiber optic,Yes,4,10
+acc21221,0,จ.ปทุมธานี,Fiber optic,No,4,9
+acc16802,5,จ.เชียงราย,DSL,Yes,3,0
+acc82777,6,จ.เพชรบุรี,Fiber optic,Yes,6,10
+acc30667,0,จ.กรุงเทพมหานคร,Fiber optic,Yes,1,8
+acc30207,5,จ.เชียงใหม่,Fiber optic,No,9,2
+acc50450,6,จ.กาญจนบุรี,Fiber optic,Yes,4,4
+acc48122,5,จ.แพร่,Fiber optic,No,4,3
+acc90783,2,จ.นครราชสีมา,Fiber optic,Yes,0,2
+acc48220,2,จ.นครราชสีมา,Fiber optic,No,2,6
+acc11140,7,จ.ตรัง,Fiber optic,Yes,3,4
+acc69557,5,จ.เชียงใหม่,Fiber optic,No,5,1
+acc76420,3,จ.ขอนแก่น,Fiber optic,Yes,1,7
+acc59410,0,จ.กรุงเทพมหานคร,Fiber optic,Yes,8,8
+acc11098,2,จ.นครราชสีมา,Fiber optic,Yes,1,10
+acc26656,3,จ.อุดรธานี,Fiber optic,No,5,0
+acc94613,3,จ.มหาสารคาม,Fiber optic,Yes,0,8
+acc92422,3,จ.อุดรธานี,Fiber optic,Yes,0,7
+acc21836,2,จ.ยโสธร,Fiber optic,Yes,7,6
+acc35421,0,จ.สมุทรปราการ,DSL,Yes,5,5
+acc87594,5,จ.เชียงใหม่,Fiber optic,No,8,4
+acc42948,2,จ.นครราชสีมา,Fiber optic,No,8,5
+acc66506,9,จ.สิงห์บุรี,DSL,Yes,0,1
+acc18903,6,จ.ราชบุรี,Fiber optic,Yes,3,9
+acc78980,2,จ.นครราชสีมา,Fiber optic,Yes,0,9
+acc69268,5,จ.ลำปาง,Fiber optic,No,6,6
+acc63552,5,จ.เชียงใหม่,Fiber optic,Yes,3,0
+acc43869,5,จ.แพร่,Fiber optic,Yes,6,1
+acc28077,2,จ.นครราชสีมา,Fiber optic,Yes,0,8
+acc25535,6,จ.ราชบุรี,Fiber optic,No,2,9
+acc43196,5,จ.ลำปาง,Fiber optic,No,4,9
+acc21961,2,จ.ศรีสะเกษ,Fiber optic,Yes,5,0
+acc73112,3,จ.ขอนแก่น,Fiber optic,Yes,8,6
+acc34603,2,จ.นครราชสีมา,Fiber optic,Yes,5,4
+acc28804,5,จ.ลำปาง,Fiber optic,No,1,5
+acc29424,7,จ.นครศรีธรรมราช,Fiber optic,No,7,3
+acc22175,4,จ.พิษณุโลก,Fiber optic,No,0,5
+acc34010,0,จ.นนทบุรี,Fiber optic,No,6,7
+acc61351,0,จ.กรุงเทพมหานคร,Fiber optic,Yes,3,0
+acc35687,3,จ.ขอนแก่น,Fiber optic,Yes,0,0
+acc63436,6,จ.ราชบุรี,Fiber optic,No,1,0
+acc11943,3,จ.มหาสารคาม,Fiber optic,No,3,4
+acc56103,0,จ.ปทุมธานี,Fiber optic,No,1,7
+acc88641,5,จ.แพร่,Fiber optic,No,4,3
+acc83962,2,จ.นครราชสีมา,Fiber optic,No,0,4
+acc17109,6,จ.เพชรบุรี,Fiber optic,Yes,7,1
+acc65020,2,จ.นครราชสีมา,Fiber optic,No,6,9
+acc86992,7,จ.นครศรีธรรมราช,Fiber optic,Yes,6,4
+acc42387,4,จ.อุทัยธานี,Fiber optic,No,8,4
+acc84969,5,จ.เชียงใหม่,Fiber optic,Yes,0,6
+acc15286,6,จ.ราชบุรี,Fiber optic,Yes,1,1
+acc20456,0,จ.กรุงเทพมหานคร,Fiber optic,Yes,3,0
+acc14977,2,จ.ชัยภูมิ,Fiber optic,Yes,0,0
+acc17909,5,จ.เชียงราย,Fiber optic,Yes,6,0
+acc62095,4,จ.พิษณุโลก,Fiber optic,No,0,6
+acc37816,0,จ.สมุทรปราการ,Fiber optic,No,8,10
+acc61305,7,จ.ระนอง,DSL,Yes,0,6
+acc98853,5,จ.ลำปาง,Fiber optic,No,3,2
+acc17493,0,จ.นนทบุรี,Fiber optic,Yes,2,0
+acc87638,7,จ.พังงา,Fiber optic,Yes,5,0
+acc49589,5,จ.เชียงใหม่,Fiber optic,Yes,3,7
+acc80198,6,จ.ราชบุรี,Fiber optic,No,6,3
+acc10633,0,จ.สมุทรปราการ,Fiber optic,No,5,7
+acc92219,3,จ.เลย,Fiber optic,Yes,0,9
+acc60134,0,จ.กรุงเทพมหานคร,Fiber optic,No,0,3
+acc33176,8,จ.ยะลา,Fiber optic,Yes,3,7
+acc11133,5,จ.เชียงราย,DSL,No,4,6
+acc83605,5,จ.เชียงใหม่,Fiber optic,No,2,1
+acc20607,7,จ.ชุมพร,Fiber optic,Yes,6,4
+acc52149,3,จ.อุดรธานี,Fiber optic,Yes,0,2
+acc35656,2,จ.ศรีสะเกษ,Fiber optic,Yes,2,0
+acc98758,4,จ.กำแพงเพชร,Fiber optic,No,0,0
+acc27255,4,จ.อุตรดิตถ์,Fiber optic,Yes,6,7
+acc26700,5,จ.ลำพูน,Fiber optic,No,3,0
+acc52618,7,จ.นครศรีธรรมราช,Fiber optic,Yes,8,0
+acc32707,1,จ.ฉะเชิงเทรา,Fiber optic,No,2,4
+acc29358,5,จ.ลำพูน,Fiber optic,No,3,2
+acc54226,2,จ.นครราชสีมา,Fiber optic,No,8,1
+acc57137,2,จ.ศรีสะเกษ,DSL,Yes,6,5
+acc27334,7,จ.ชุมพร,Fiber optic,No,0,0
+acc12725,3,จ.อุดรธานี,Fiber optic,Yes,3,1
+acc15163,2,จ.ศรีสะเกษ,Fiber optic,Yes,5,1
+acc34756,5,จ.เชียงใหม่,Fiber optic,No,3,3
+acc96742,1,จ.ฉะเชิงเทรา,Fiber optic,No,1,9
+acc95779,3,จ.ขอนแก่น,Fiber optic,Yes,1,4
+acc97272,3,จ.มหาสารคาม,Fiber optic,Yes,8,6
+acc35881,4,จ.นครสวรรค์,Fiber optic,No,8,2
+acc40775,6,จ.ราชบุรี,Fiber optic,No,5,0
+acc52187,0,จ.กรุงเทพมหานคร,Fiber optic,Yes,2,7
+acc16680,4,จ.อุทัยธานี,Fiber optic,Yes,6,5
+acc25051,0,จ.กรุงเทพมหานคร,DSL,Yes,7,7
+acc52789,4,จ.กำแพงเพชร,Fiber optic,Yes,8,1
+acc26472,7,จ.นครศรีธรรมราช,DSL,Yes,1,9
+acc89500,2,จ.ยโสธร,Fiber optic,Yes,7,5
+acc38161,0,จ.กรุงเทพมหานคร,DSL,No,6,8
+acc29925,0,จ.กรุงเทพมหานคร,DSL,Yes,0,4
+acc24068,6,จ.ประจวบคีรีขันธ์,Fiber optic,No,2,8
+acc13331,5,จ.ลำปาง,DSL,No,3,10
+acc86742,3,จ.อุดรธานี,Fiber optic,No,5,0
+acc25719,1,จ.ปราจีนบุรี,Fiber optic,Yes,4,10
+acc51780,0,จ.ปทุมธานี,Fiber optic,Yes,6,6
+acc18073,4,จ.ตาก,DSL,Yes,9,0
+acc92363,9,จ.สุพรรณบุรี,Fiber optic,Yes,5,7
+acc12636,5,จ.เชียงใหม่,Fiber optic,Yes,3,7
+acc11550,4,จ.อุทัยธานี,DSL,Yes,0,2
+acc16431,4,จ.พิษณุโลก,Fiber optic,No,0,4
+acc17475,4,จ.ตาก,Fiber optic,Yes,4,9
+acc37086,3,จ.ขอนแก่น,Fiber optic,Yes,7,2
+acc72570,5,จ.เชียงใหม่,Fiber optic,Yes,6,0
+acc94698,3,จ.อุดรธานี,DSL,No,4,0
+acc24906,1,จ.ระยอง,Fiber optic,No,3,0
+acc10720,6,จ.กาญจนบุรี,Fiber optic,Yes,7,1
+acc84254,5,จ.เชียงราย,Fiber optic,Yes,3,9
+acc92690,2,จ.อุบลราชธานี,Fiber optic,Yes,4,0
+acc50676,6,จ.เพชรบุรี,Fiber optic,Yes,2,0
+acc82785,0,จ.กรุงเทพมหานคร,Fiber optic,No,6,8
+acc57959,3,จ.ขอนแก่น,Fiber optic,No,4,5
+acc53697,0,จ.ปทุมธานี,Fiber optic,Yes,0,5
+acc99141,2,จ.นครราชสีมา,Fiber optic,Yes,0,5
+acc60618,6,จ.ราชบุรี,DSL,Yes,2,10
+acc22215,0,จ.สมุทรปราการ,Fiber optic,No,0,0
+acc71851,4,จ.กำแพงเพชร,Fiber optic,Yes,1,10
+acc88611,3,จ.อุดรธานี,Fiber optic,Yes,0,1
+acc52587,4,จ.ตาก,Fiber optic,Yes,3,8
+acc75232,4,จ.พิษณุโลก,Fiber optic,No,5,2
+acc19215,5,จ.เชียงใหม่,Fiber optic,No,6,10
+acc58405,5,จ.ลำพูน,Fiber optic,No,0,10
+acc67419,0,จ.สมุทรปราการ,Fiber optic,Yes,9,2
+acc86625,4,จ.เพชรบูรณ์,Fiber optic,No,3,5
+acc89868,4,จ.สุโขทัย,DSL,No,7,2
+acc41116,4,จ.นครสวรรค์,Fiber optic,Yes,0,3
+acc98678,3,จ.มหาสารคาม,Fiber optic,Yes,1,0
+acc90504,9,จ.สิงห์บุรี,DSL,Yes,5,1
+acc21827,0,จ.กรุงเทพมหานคร,Fiber optic,Yes,8,1
+acc42257,2,จ.นครราชสีมา,Fiber optic,No,1,3
+acc80272,1,จ.ตราด,Fiber optic,Yes,0,1
+acc94259,3,จ.ขอนแก่น,Fiber optic,Yes,8,0
+acc97045,5,จ.เชียงใหม่,Fiber optic,Yes,7,7
+acc48080,5,จ.ลำปาง,Fiber optic,Yes,0,7
+acc88021,9,จ.สุพรรณบุรี,DSL,No,5,0
+acc40127,7,จ.นครศรีธรรมราช,Fiber optic,Yes,0,0
+acc58199,0,จ.กรุงเทพมหานคร,Fiber optic,No,3,0
+acc42005,0,จ.กรุงเทพมหานคร,Fiber optic,No,6,7
+acc72448,6,จ.ประจวบคีรีขันธ์,Fiber optic,Yes,8,1
+acc26879,4,จ.เพชรบูรณ์,Fiber optic,Yes,8,5
+acc98464,0,จ.สมุทรปราการ,Fiber optic,Yes,3,5
+acc31631,3,จ.ขอนแก่น,Fiber optic,Yes,5,6
+acc76359,7,จ.นครศรีธรรมราช,Fiber optic,Yes,6,2
+acc90468,0,จ.กรุงเทพมหานคร,Fiber optic,Yes,4,0
+acc39541,6,จ.ประจวบคีรีขันธ์,Fiber optic,Yes,6,0
+acc89639,5,จ.เชียงใหม่,Fiber optic,No,0,0
+acc94289,5,จ.แพร่,Fiber optic,No,1,3
+acc64546,7,จ.นครศรีธรรมราช,Fiber optic,No,0,0
+acc12071,4,จ.นครสวรรค์,Fiber optic,Yes,6,1
+acc82268,5,จ.ลำปาง,Fiber optic,Yes,0,1
+acc69084,7,จ.ระนอง,Fiber optic,Yes,2,3
+acc51816,2,จ.อำนาจเจริญ,DSL,No,5,2
+acc49958,4,จ.นครสวรรค์,Fiber optic,No,0,8
+acc90916,6,จ.ราชบุรี,Fiber optic,No,6,0
+acc64744,5,จ.แพร่,Fiber optic,No,5,1
+acc70231,1,จ.ฉะเชิงเทรา,Fiber optic,Yes,5,7
+acc51406,3,จ.ขอนแก่น,Fiber optic,Yes,7,2
+acc19072,5,จ.เชียงใหม่,Fiber optic,No,4,8
+acc63185,2,จ.นครราชสีมา,DSL,Yes,3,8
+acc75678,3,จ.อุดรธานี,Fiber optic,Yes,1,0
+acc48709,3,จ.อุดรธานี,Fiber optic,Yes,4,0
+acc65855,4,จ.พิษณุโลก,Fiber optic,Yes,5,7
+acc52725,0,จ.ปทุมธานี,Fiber optic,No,6,2
+acc89079,3,จ.ขอนแก่น,Fiber optic,No,1,9
+acc61415,1,จ.ปราจีนบุรี,Fiber optic,No,6,5
+acc74881,5,จ.ลำพูน,Fiber optic,Yes,3,5
+acc51610,4,จ.ตาก,Fiber optic,Yes,3,6
+acc38160,3,จ.มหาสารคาม,DSL,Yes,3,9
+acc70753,7,จ.นครศรีธรรมราช,Fiber optic,Yes,8,0
+acc45747,7,จ.กระบี่,Fiber optic,Yes,1,2
+acc26927,4,จ.พิษณุโลก,Fiber optic,Yes,7,6
+acc50278,2,จ.ชัยภูมิ,Fiber optic,Yes,3,2
+acc71856,6,จ.นครปฐม,Fiber optic,Yes,9,3
+acc42638,0,จ.สมุทรปราการ,Fiber optic,Yes,2,3
+acc38516,2,จ.นครราชสีมา,Fiber optic,No,1,0
+acc25741,4,จ.พิษณุโลก,Fiber optic,Yes,0,5
+acc67171,2,จ.ศรีสะเกษ,Fiber optic,Yes,2,0
+acc87415,3,จ.ขอนแก่น,Fiber optic,Yes,0,0
+acc65705,0,จ.นนทบุรี,Fiber optic,Yes,0,0
+acc61975,9,จ.สุพรรณบุรี,Fiber optic,Yes,3,3
