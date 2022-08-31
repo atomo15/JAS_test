@@ -35,15 +35,13 @@
                             <li><a class="dropdown-item" href="http://127.0.0.1:5000/FaultCableCutPerMonthByZone">Fault
                                     Cable Cut Per Month</a>
                             </li>
-
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button"
                             data-bs-toggle="dropdown">Provinces</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="http://127.0.0.1:5000/InterneTypeByProvince">Internet
-                                    Type</a></li>
+                            <li><a class="dropdown-item" href="#">Internet Type</a></li>
                             <li><a class="dropdown-item" href="#">Streaming TV</a></li>
                             <li><a class="dropdown-item" href="#">Fault Power Outage Per Month</a></li>
                             <li><a class="dropdown-item" href="#">Fault Cable Cut Per Month</a></li>
@@ -55,45 +53,36 @@
     </nav>
 
     <div class="container-fluid mt-2">
-
+        <!-- <center> -->
+        <!-- <div class="row"> -->
         <center>
             <div class="col justify-content-center">
-                <h1> <span class="badge bg-primary">Accounts Summary By</span></h1>
+                <h1> <span class="badge bg-primary">Internet Type Summary by Zone</span></h1>
             </div>
         </center>
-
-        <center>
-            <div class="row justify-content-center">
-                <h2> <span class="badge bg-primary">Zones</span></h2>
-            </div>
-        </center>
-
+        <!-- </div> -->
         <div class="row justify-content-center">
 
-            <div class="col-sm-10">
+            <div class="col-sm-5">
+                <!-- <div class="overflow-auto"> -->
                 <!-- <canvas id="myChart" style="width:50%;max-width:400px;"></canvas> -->
                 <canvas id="myChart" style="height:50%;"></canvas>
+                <!-- </div> -->
             </div>
-
+            <div class="col-sm-5">
+                <!-- <div class="overflow-auto"> -->
+                <!-- <canvas id="myChart2" style="width:50%;max-width:600px;"></canvas> -->
+                <canvas id="myChart2" style="height:50%;"></canvas>
+                <!-- </div> -->
+            </div>
 
         </div>
-
-        <center>
-            <div class="row justify-content-center">
-                <h2> <span class="badge bg-primary">Provinces</span></h2>
-            </div>
-        </center>
-
         <div class="row justify-content-center">
             <div class="col-sm-10">
-                <div class="mh-100">
-                    <!-- <canvas id="myChart2" style="width:50%;max-width:600px;"></canvas> -->
-                    <canvas id="myChart2" style="height:50%;"></canvas>
-                </div>
-
+                <canvas id="myChart3" style="height:50%;"></canvas>
             </div>
         </div>
-
+        <!-- </center> -->
     </div>
 
     <script>
@@ -105,7 +94,13 @@
         var yVals = [];
         var xVals2 = [];
         var yVals2 = [];
+        var xValsCom = [];
+        var yValsCom = [];
         var barColors = ["rgb(57, 65, 219)", "rgb(16, 129, 160)", "rgb(48, 104, 178)", "rgb(55, 130, 158)", "rgb(44, 234, 228)", "rgb(64, 89, 173)", "rgb(53, 110, 224)", "rgb(76, 155, 170)", "rgb(48, 17, 173)", "rgb(24, 132, 204)", "rgb(70, 141, 234)", "rgb(14, 98, 234)", "rgb(40, 155, 191)", "rgb(76, 176, 247)", "rgb(55, 14, 178)", "rgb(1, 88, 99)", "rgb(50, 25, 150)", "rgb(63, 92, 193)", "rgb(111, 161, 247)", "rgb(35, 14, 130)", "rgb(87, 120, 237)", "rgb(28, 8, 109)", "rgb(62, 69, 201)", "rgb(122, 79, 249)", "rgb(90, 97, 221)", "rgb(38, 73, 191)", "rgb(89, 220, 229)", "rgb(8, 76, 99)", "rgb(74, 74, 181)", "rgb(48, 132, 163)", "rgb(103, 121, 239)", "rgb(68, 10, 214)", "rgb(102, 149, 232)", "rgb(69, 90, 224)", "rgb(18, 204, 200)", "rgb(28, 117, 201)", "rgb(95, 200, 226)", "rgb(85, 194, 237)", "rgb(34, 12, 102)", "rgb(83, 26, 239)", "rgb(255, 182, 104)", "rgb(226, 159, 93)", "rgb(206, 105, 16)", "rgb(214, 85, 25)", "rgb(198, 123, 65)", "rgb(255, 169, 79)", "rgb(247, 199, 42)", "rgb(229, 149, 91)", "rgb(198, 130, 51)", "rgb(244, 185, 66)", "rgb(234, 190, 100)", "rgb(221, 156, 70)", "rgb(234, 145, 82)", "rgb(145, 51, 11)", "rgb(252, 182, 108)", "rgb(196, 153, 37)", "rgb(198, 150, 29)", "rgb(249, 172, 4)", "rgb(232, 190, 99)", "rgb(206, 148, 24)", "rgb(211, 119, 74)", "rgb(198, 131, 23)", "rgb(216, 173, 43)", "rgb(178, 116, 0)", "rgb(234, 129, 49)", "rgb(239, 133, 62)", "rgb(237, 144, 68)", "rgb(247, 170, 111)", "rgb(224, 109, 2)", "rgb(255, 155, 56)", "rgb(249, 156, 109)", "rgb(244, 167, 107)", "rgb(204, 84, 4)", "rgb(221, 187, 75)", "rgb(201, 159, 68)", "rgb(237, 200, 99)", "rgb(193, 134, 52)", "rgb(198, 120, 23)", "rgb(229, 178, 36)", "rgb(201, 156, 58)"];
+        var total_fiber = 0;
+        var total_dsl = 0;
+        var total_all = 0;
+
         for (var i = 0; i < datajs.length; i++) {
             //barColors[i] = "rgba(" + ((i + 1) * 25) + ",150,0,1)";
             for (var j = 0; j < 2; j++) {
@@ -114,6 +109,7 @@
                 } else {
                     xVals[i] = xVals[i] + " ( " + datajs[i][j] + " ) ";
                     yVals[i] = datajs[i][j];
+                    total_fiber = total_fiber + datajs[i][j]
                 }
             }
         }
@@ -122,21 +118,52 @@
             //barColors[k] = "rgba(" + ((k + 1) * 25) + ",150,0,1)";
             for (var l = 0; l < 2; l++) {
                 if (l == 0) {
-                    xVals2[k] = accPerPronvice[k][l];
+                    xVals2[k] = "Zone " + accPerPronvice[k][l];
                 } else {
                     xVals2[k] = xVals2[k] + " ( " + accPerPronvice[k][l] + " ) ";
                     yVals2[k] = accPerPronvice[k][l];
+                    total_dsl = total_dsl + accPerPronvice[k][l];
                 }
             }
         }
+
+        total_all = total_fiber + total_dsl
+
+        var per_fiber = total_fiber / total_all * 100;
+        var per_dsl = total_dsl / total_all * 100;
+
+        var index1 = 0;
+        var index2 = 0;
+
+        for (var o = 0; o < datajs.length + accPerPronvice.length; o++) {
+            if (o % 2 == 0) {
+                xValsCom[o] = xVals[index1] + "[ Fiber optic ]"
+                index1 = index1 + 1;
+            } else {
+                xValsCom[o] = xVals2[index2] + "[ DSL ]"
+                index2 = index2 + 1;
+            }
+        }
+        index1 = 0;
+        index2 = 0;
+
+        for (var o = 0; o < datajs.length + accPerPronvice.length; o++) {
+            if (o % 2 == 0) {
+                yValsCom[o] = yVals[index1]
+                index1 = index1 + 1;
+            } else {
+                yValsCom[o] = yVals2[index2]
+                index2 = index2 + 1;
+            }
+        }
+        //console.log(xValsCom)
+        //console.log(yValsCom)
         //console.log(xVals);
         //console.log(yVals);
 
-        //var xValues = ["Italy", "France", "Spain", "USA", "Argentina"];
+
         var xValues = xVals;
-        //var yValues = [55, 49, 44, 24, 15];
         var yValues = yVals;
-        //var barColors = ["red", "green", "blue", "orange", "brown", "red", "green", "blue", "orange", "brown"];
 
         new Chart("myChart", {
             type: "doughnut",
@@ -151,7 +178,7 @@
                 // legend: { display: false },
                 title: {
                     display: true,
-                    text: "The Number of Accounts in each zone."
+                    text: "The Number of Accounts using Fiber optic catagorized by zone. ( " + total_fiber + " ) [ ~ " + per_fiber + " % ]"
                 }
             }
         });
@@ -167,7 +194,23 @@
             options: {
                 title: {
                     display: true,
-                    text: "The Number of Accounts in each province."
+                    text: "The Number of Accounts using DSL catagorized by zone. ( " + total_dsl + " ) [ ~ " + per_dsl + " % ]"
+                }
+            }
+        });
+        new Chart("myChart3", {
+            type: "doughnut",
+            data: {
+                labels: xValsCom,
+                datasets: [{
+                    backgroundColor: barColors,
+                    data: yValsCom
+                }]
+            },
+            options: {
+                title: {
+                    display: true,
+                    text: "The Number of Accounts using Fiber optic VS DSL catagorized by zone."
                 }
             }
         });
