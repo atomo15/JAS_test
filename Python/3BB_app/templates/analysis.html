@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Home</title>
+    <title>Overall Summary</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -76,7 +76,7 @@
 
         <div class="row justify-content-center">
             <div class="col-sm-10">
-                <div id="barchart_material" style="width: 1500px; height: 2000px;"></div>
+                <div id="barchart_material" style="width: 1000px; height: 2000px;"></div>
 
             </div>
         </div>
@@ -90,7 +90,7 @@
         <div class="row justify-content-center">
 
             <div class="col-sm-10">
-                <div id="barchart_material2" style="width: 1500px; height: 5000px;"></div>
+                <div id="barchart_material2" style="width: 1000px; height: 5000px;"></div>
             </div>
 
 
@@ -101,79 +101,7 @@
     </div>
 
     <script>
-        //var Provinceresult = {{ Provinceresult | tojson }};
-        //var Zonemyresult = {{ Zonemyresult | tojson }};
-        //console.log(datajs[0])
-        //console.log(accPerPronvice)
-        var xVals = [];
-        var yVals = [];
-        var xVals2 = [];
-        var yVals2 = [];
 
-        // var barColors = ["rgb(130, 64, 237)", "rgb(95, 226, 165)", "rgb(21, 153, 95)", "rgb(226, 70, 219)", "rgb(249, 22, 33)", "rgb(211, 172, 16)", "rgb(52, 68, 188)", "rgb(232, 92, 204)", "rgb(59, 211, 110)", "rgb(237, 87, 159)", "rgb(77, 64, 178)", "rgb(3, 108, 160)", "rgb(247, 139, 24)", "rgb(249, 232, 74)", "rgb(103, 73, 237)", "rgb(194, 37, 209)", "rgb(201, 64, 209)", "rgb(12, 242, 223)", "rgb(63, 13, 130)", "rgb(167, 181, 12)", "rgb(87, 137, 12)", "rgb(81, 53, 183)", "rgb(229, 194, 98)", "rgb(216, 131, 82)", "rgb(74, 32, 181)", "rgb(167, 79, 234)", "rgb(160, 247, 19)", "rgb(226, 123, 79)", "rgb(237, 83, 196)", "rgb(76, 221, 59)", "rgb(19, 47, 119)", "rgb(100, 244, 146)", "rgb(0, 191, 130)", "rgb(247, 66, 181)", "rgb(224, 22, 247)", "rgb(216, 138, 73)", "rgb(234, 79, 185)", "rgb(244, 7, 54)", "rgb(2, 107, 9)", "rgb(23, 37, 165)", "rgb(252, 192, 174)", "rgb(242, 249, 144)", "rgb(234, 244, 117)", "rgb(239, 115, 185)", "rgb(110, 234, 170)", "rgb(252, 178, 113)", "rgb(171, 252, 245)", "rgb(242, 184, 164)", "rgb(136, 239, 207)", "rgb(220, 150, 242)", "rgb(158, 247, 173)", "rgb(106, 110, 232)", "rgb(159, 252, 243)", "rgb(204, 249, 159)", "rgb(153, 155, 252)", "rgb(117, 225, 249)", "rgb(171, 252, 230)", "rgb(171, 211, 242)", "rgb(255, 150, 249)", "rgb(201, 255, 178)"];
-        // for (var i = 0; i < datajs.length; i++) {
-        //     //barColors[i] = "rgba(" + ((i + 1) * 25) + ",150,0,1)";
-        //     for (var j = 0; j < 2; j++) {
-        //         if (j == 0) {
-        //             xVals[i] = "Zone " + datajs[i][j];
-        //         } else {
-        //             xVals[i] = xVals[i] + " ( " + datajs[i][j] + " ) ";
-        //             yVals[i] = datajs[i][j];
-        //         }
-        //     }
-        // }
-
-        // for (var k = 0; k < accPerPronvice.length; k++) {
-        //     //barColors[k] = "rgba(" + ((k + 1) * 25) + ",150,0,1)";
-        //     for (var l = 0; l < 2; l++) {
-        //         if (l == 0) {
-        //             xVals2[k] = accPerPronvice[k][l];
-        //         } else {
-        //             xVals2[k] = xVals2[k] + " ( " + accPerPronvice[k][l] + " ) ";
-        //             yVals2[k] = accPerPronvice[k][l];
-        //         }
-        //     }
-        // }
-        //console.log(xVals);
-        //console.log(yVals);
-
-        var xValues = xVals;
-
-        var yValues = yVals;
-
-        // new Chart("myChart", {
-        //     type: "doughnut",
-        //     data: {
-        //         labels: xValues,
-        //         datasets: [{
-        //             backgroundColor: barColors,
-        //             data: yValues
-        //         }]
-        //     },
-        //     options: {
-        //         // legend: { display: false },
-        //         title: {
-        //             display: true,
-        //             text: "The Number of Accounts in each zone."
-        //         }
-        //     }
-        // });
-        // new Chart("myChart2", {
-        //     type: "doughnut",
-        //     data: {
-        //         labels: xVals2,
-        //         datasets: [{
-        //             backgroundColor: barColors,
-        //             data: yVals2
-        //         }]
-        //     },
-        //     options: {
-        //         title: {
-        //             display: true,
-        //             text: "The Number of Accounts in each province."
-        //         }
-        //     }
-        // });
         google.charts.load('current', { 'packages': ['bar'] });
         google.charts.setOnLoadCallback(drawChart);
 
@@ -182,9 +110,8 @@
         }};
         var Zonemyresult = {{ Zonemyresult | tojson }};
 
-        var summary_zone = [['Zone', 'Accounts', 'Total Fiber', 'Fiber with Streaming TV', 'Fiber without Streaming TV', 'Fiber with both Fault', 'Fiber with only FaultPowerOutage', 'Fiber with only FaultPowerOutage', 'Total DSL', 'DSL with Streaming TV', 'DSL without Streaming TV', 'DSL with both Fault', 'DSL with only FaultPowerOutage', 'DSL with only FaultPowerOutage']];
-        var summary_province = [['Province', 'Accounts', 'Total Fiber', 'Fiber with Streaming TV', 'Fiber without Streaming TV', 'Fiber with both Fault', 'Fiber with only FaultPowerOutage', 'Fiber with only FaultPowerOutage', 'Total DSL', 'DSL with Streaming TV', 'DSL without Streaming TV', 'DSL with both Fault', 'DSL with only FaultPowerOutage', 'DSL with only FaultPowerOutage']];
-        //var summary_province = [['Zone', 'Accounts', 'YES', 'NO']];
+        var summary_zone = [['Zone', 'Accounts', 'Total Fiber', 'Fiber with Streaming TV', 'Fiber without Streaming TV', 'Fiber with both Faults', 'Fiber with only FaultPowerOutage', 'Fiber with only FaultPowerOutage', 'Total DSL', 'DSL with Streaming TV', 'DSL without Streaming TV', 'DSL with both Fault', 'DSL with only FaultPowerOutage', 'DSL with only FaultPowerOutage']];
+        var summary_province = [['Province', 'Accounts', 'Total Fiber', 'Fiber with Streaming TV', 'Fiber without Streaming TV', 'Fiber with both Faults', 'Fiber with only FaultPowerOutage', 'Fiber with only FaultPowerOutage', 'Total DSL', 'DSL with Streaming TV', 'DSL without Streaming TV', 'DSL with both Fault', 'DSL with only FaultPowerOutage', 'DSL with only FaultPowerOutage']];
 
         for (var i = 0; i < Zonemyresult.length; i++) {
             summary_zone.push(Zonemyresult[i]);
@@ -194,7 +121,7 @@
             summary_province.push(Provinceresult[i]);
         }
 
-        console.log(summary_zone)
+        //console.log(summary_zone)
         var data = google.visualization.arrayToDataTable(summary_zone);
         var data2 = google.visualization.arrayToDataTable(summary_province);
 
@@ -203,7 +130,7 @@
                 title: 'Overall Analysis',
                 subtitle: 'By Zone',
             },
-            bars: 'horizontal' // Required for Material Bar Charts.
+            bars: 'horizontal'
         };
 
         var options2 = {
@@ -211,7 +138,7 @@
                 title: 'Overall Analysis',
                 subtitle: 'By Province',
             },
-            bars: 'horizontal' // Required for Material Bar Charts.
+            bars: 'horizontal'
         };
 
         var chart = new google.charts.Bar(document.getElementById('barchart_material'));
