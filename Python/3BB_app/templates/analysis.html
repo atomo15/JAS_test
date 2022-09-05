@@ -110,8 +110,8 @@
         }};
         var Zonemyresult = {{ Zonemyresult | tojson }};
 
-        var summary_zone = [['Zone', 'Accounts', 'Total Fiber', 'Fiber with Streaming TV', 'Fiber without Streaming TV', 'Fiber with both Faults', 'Fiber with only FaultPowerOutage', 'Fiber with only FaultPowerOutage', 'Total DSL', 'DSL with Streaming TV', 'DSL without Streaming TV', 'DSL with both Fault', 'DSL with only FaultPowerOutage', 'DSL with only FaultPowerOutage']];
-        var summary_province = [['Province', 'Accounts', 'Total Fiber', 'Fiber with Streaming TV', 'Fiber without Streaming TV', 'Fiber with both Faults', 'Fiber with only FaultPowerOutage', 'Fiber with only FaultPowerOutage', 'Total DSL', 'DSL with Streaming TV', 'DSL without Streaming TV', 'DSL with both Fault', 'DSL with only FaultPowerOutage', 'DSL with only FaultPowerOutage']];
+        var summary_zone = [['Zone', 'Accounts', 'Total Fiber', 'Fiber with Streaming TV', 'Fiber without Streaming TV', 'Fiber with both Faults', 'Fiber with only FaultPowerOutage', 'Fiber with only FaultCableCut', 'Total DSL', 'DSL with Streaming TV', 'DSL without Streaming TV', 'DSL with both Fault', 'DSL with only FaultPowerOutage', 'DSL with only FaultCableCut']];
+        var summary_province = [['Province', 'Accounts', 'Total Fiber', 'Fiber with Streaming TV', 'Fiber without Streaming TV', 'Fiber with both Faults', 'Fiber with only FaultPowerOutage', 'Fiber with only FaultCableCut', 'Total DSL', 'DSL with Streaming TV', 'DSL without Streaming TV', 'DSL with both Fault', 'DSL with only FaultPowerOutage', 'DSL with only FaultCableCut']];
 
         for (var i = 0; i < Zonemyresult.length; i++) {
             summary_zone.push(Zonemyresult[i]);
